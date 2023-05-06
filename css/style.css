@@ -1,0 +1,337 @@
+.bg-green{
+    background-color: #00584E;
+}
+
+#main-menu{
+    top: 50px;
+    right: 100px;
+    transition: transform .5s ease-in-out;
+}
+
+#main-menu.hidden {
+    top: -100%;
+}
+
+.text-bggreen{
+    color: #00584E;
+}
+
+.darkgreen{
+    color: #636363;
+}
+
+.question{
+    color: #fff;
+    background: #636363;
+    border: 1px solid #636363;
+    border-radius: 40px;
+    transition: .3s;
+}
+
+.question:hover{
+    color: #636363;
+    background-color: #fff;
+}
+
+.orange{
+    color: #E8641A;
+}
+
+.title{
+    top: 240px;
+    right: 32px;
+}
+
+.sub-title{
+    font-size: 32px;
+}
+
+.main-title{
+    font-size: 60px;
+}
+
+.special{
+    border-bottom: 10px solid #E8641A;
+}
+
+.bar{
+    display: block;
+	width: 24px;
+	height: 4px;
+	margin: 4px auto;
+    border: 1px solid #000;
+    background: #000;
+}
+
+.menu-btn{
+    top: 50px;
+    left: 100px;
+}
+
+.banner{
+    font-size: 24px;
+}
+
+.method{
+    top: 320px;
+    left: 240px;
+}
+
+.method-title{
+    font-size: 48px;
+}
+
+.method-subtitle{
+    font-size: 24px;
+}
+
+.method-main-img{
+    top: 320px;
+    right: 240px;
+}
+
+.method-img{
+    width: 444px;
+    height: auto;
+    border: 1px solid #E8641A;
+    border-radius: 30px;
+    box-shadow: -20px 20px rgb(229, 209, 198);
+}
+
+.card{
+    max-width: 492px;
+    margin: 0 auto;
+}
+
+.install{
+    font-size: 48px;
+}
+
+.install-img{
+    width: 210px;
+    height: auto;
+}
+
+.contact-title{
+    font-size: 48px;
+}
+
+.contact-text{
+    font-size: 24px;
+}
+
+.location-link{
+    font-size: 20px;
+    transition: .3s;
+}
+
+.location-link:hover{
+    background-color: #198754;
+}
+
+.form-select{
+    background-color: #636363;
+}
+
+.map{
+    transition: .3s;
+}
+
+.map:hover{
+    background: #198754;
+}
+
+.map:active{
+    background: #198754;
+}
+
+.home{
+    top: 400px;
+    left: 160px;
+    width: 554px;
+    height: auto;
+}
+
+.success{
+    top: 440px;
+    right: 160px;
+    max-width: 570px;
+}
+
+.other{
+    border: 1px solid #00584E;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.mobile-img{
+    max-width: 500px;
+    width: 100%;
+}
+
+footer{
+    background-color: #D4E8E3;
+}
+
+@media screen and (max-width: 1200px){
+    .method{
+        top: 160px;
+        left: 40px;
+    }
+
+    .method-main-img{
+        top: 120px;
+        right: 40px;
+    }
+
+    .home{
+        width: 444px;
+        top: 240px;
+        left: 120px;
+    }
+
+    .success{
+        top: 260px;
+        right: 40px;
+        max-width: 570px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .title{
+        top: 160px;
+        right: 16px;
+    }
+
+    .main-title{
+        font-size: 45px;
+    }
+
+    .sub-title{
+        font-size: 24px;
+    }
+
+    .banner{
+        font-size: 16px;
+    }
+
+    .method{
+        top: 160px;
+        left: 80px;
+    }
+    
+    .method-title{
+        font-size: 24px;
+    }
+    
+    .method-subtitle{
+        font-size: 16px;
+    }
+    
+    .method-main-img{
+        top: 120px;
+        right: 32px;
+    }
+    
+    .method-img{
+        width: 324px;
+        height: auto;
+        border: 1px solid #E8641A;
+        border-radius: 30px;
+        box-shadow: -20px 20px rgb(229, 209, 198);
+    }
+
+    .install{
+        font-size: 24px;
+    }
+    
+    .install-img{
+        width: 150px;
+        height: auto;
+    }
+
+    .install-text{
+        font-size: 16px;
+    }
+
+    .contact-title{
+        font-size: 24px;
+    }
+    
+    .contact-text{
+        font-size: 16px;
+    }
+
+    .home{
+        width: 324px;
+        top: 232px;
+        left: 80px;
+    }
+
+    .success{
+        top: 232px;
+        right: 80px;
+        max-width: 570px;
+    }
+
+    .success h2{
+        font-size: 24px;
+    }
+
+    .success h4{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .menu-btn{
+        top: 32px;
+        left: 32px;
+    }
+
+    .title{
+        top: 200px;
+        right: 160px;
+    }
+
+    .main-title{
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .sub-title{
+        font-size: 24px;
+    }
+
+    .special{
+        border-bottom: 5px solid #E8641A;
+    }
+
+    .install-img{
+        width: 320px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+    .title{
+        top: 80px;
+        right: 32px;
+    }
+
+    .main-title{
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .sub-title{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+

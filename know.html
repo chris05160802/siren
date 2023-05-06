@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/know.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="bg-green position-relative pb-5">
+        <nav class="position-absolute d-flex flex-row align-items-center mb-5 d-none d-lg-block" id="main-menu">
+            <a href="/index.html" class="text-decoration-none fs-5 fw-bold text-dark mx-4">首頁</a>
+            <a href="#" class="text-decoration-none fs-5 fw-bold text-dark mx-4">認識住警器</a>
+            <a href="#" class="text-decoration-none fs-5 fw-bold mx-2 px-4 py-2 question">常見問題</a>
+        </nav>
+        <nav class="position-absolute menu-btn d-lg-none">
+            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <div>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </button>
+            <div class="collapse" id="collapseExample">
+                <div class="card-body bg-green d-flex flex-column justify-content-center ps-1 pe-2 py-2">
+                    <a href="/index.html" class="text-decoration-none fs-5 fw-bold mx-4 my-1 text-white">首頁</a>
+                    <a href="/know.html" class="text-decoration-none fs-5 fw-bold mx-4 my-1 text-white">認識住警器</a>
+                    <a href="#" class="text-decoration-none fs-5 fw-bold mx-4 my-1 text-white">常見問題</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="bg-green mb-5">
+        <img class="w-100 d-none d-md-block" src="./image/Vector.png" alt="">
+        <div class="d-md-block d-none">
+            <div class="position-absolute method">
+                <p class="fw-bold darkgreen method-title">使用住警器<br>有效降低火災傷害</p>
+                <p class="method-subtitle">住家中安裝住宅用火災警報器，可在火災初<br>期偵測到濃煙或高溫。<br>在火災發生的第一時間發出警示音<br>讓我們在第一時間察覺火災發生，<br>應立即逃生</p>
+            </div>
+            <div class="position-absolute method-main-img">
+                <img class="method-img" src="./image/alarm.png" alt="">
+            </div>
+        </div>
+        <div class="d-md-none p-4 position-relative">
+            <div class="card border-0">
+                <img src="./image/alarm.png" class="card-img-top" alt="...">
+                <div class="card-body my-2">
+                    <h2 class="card-text text-center fw-bold darkgreen">使用住警器<br>有效降低火災傷害</h2>
+                    <p class="card-text text-center fw-bold mb-1">家中安裝住宅用火災警報器，可在火災初期偵測到濃煙或高溫。</p>
+                    <p class="card-text text-center fw-bold mb-1">在火災發生的第一時間發出警示音</p>
+                    <p class="card-text text-center fw-bold mb-1">讓我們在第一時間察覺火災發生，應立即逃生</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mb-5">
+        <h1 class="title darkgreen fw-bold text-center mb-5">住宅用<span class="orange">火災警報器</span>分類</h1>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-3">
+                    <div class="card">
+                        <img src="./image/firealarm_smoke.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-text">偵煙式</h5>
+                          <p class="card-text">偵煙式住警器建議安裝在臥室、客廳等地方，它以濃煙為主要判斷依據，當空間內的煙濃度變化達到一定數值時，就會發出警報</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card">
+                        <img src="./image/firealarm_temp.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-text">偵熱式</h5>
+                          <p class="card-text">偵熱式住警器建議安裝廚房、神明廳等地方，它以溫度為判斷依據，當空間內的溫度達一定程度時，就會觸發警報</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-3 text-center">
+        <p class="m-0 fw-bold text-bggreen">新莊射水公司</p>
+        <p class="m-0 fw-bold text-bggreen">copyright©2022 Xin Zhuang Water Jet Co.</p>
+    </footer>
+    <script src="./javascript/index.js"></script>
+</body>
+</html>
