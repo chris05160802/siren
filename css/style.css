@@ -66,6 +66,7 @@
 .menu-btn{
     top: 50px;
     left: 100px;
+    z-index: 1000;
 }
 
 .banner{
